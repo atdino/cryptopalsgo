@@ -20,7 +20,5 @@ func main() {
 
 	xor(input_hex, xor_against_hex)
 	fmt.Printf("as str: %s\n", string(input_hex))
-	fmt.Printf("as hex: ")
-	fmt.Printf("%x", input_hex)
-	fmt.Printf("\n")
+	fmt.Printf("as hex: %x\n", input_hex)
 }
